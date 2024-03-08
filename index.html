@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stitch Sprite Sheets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+  
+    <div class="btns">
+    <div class="select-btn-container">
+        <label for="spriteSheets" class="add-file" id="fileInputLabel">Select Files</label>
+        <input type="file" id="spriteSheets" multiple accept="image/*">
+        <div id="loadedImagesList"></div>
+    </div>
+      <div class="right-btn-container">
+    <button id="stitchButton" class="btn">Stitch Sheets</button>
+    <button id="exportButton" class="btn">Export Image</button>
+    </div>
+    </div>
+    <canvas id="canvas" class="canvas" style="border:1px solid #000;"></canvas>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
